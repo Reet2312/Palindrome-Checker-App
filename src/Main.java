@@ -91,12 +91,6 @@ public class PalindromeCheckerApp {
                 palindrome = false;
                 break;
             }
-            while(dq.size() > 1){
-                char first = dq.removeFirst();
-                char second = dq.removeLast();
-                if(first != second) palindrome = false;
-                break;
-            }
             System.out.println("Is Palindrom? :" +palindrome);
 
             System.out.println("Is Palindrome? :" + palindrome);
@@ -107,7 +101,7 @@ public class PalindromeCheckerApp {
                 break;
             }
         }
-        System.out.println("Is Palindrome? :" + palindrome);
+        
     }
 }
 Node head = createList(input);
