@@ -41,7 +41,7 @@ public class PalindromeCheckerApp {
                     dq.addLast(c);
                 }
 
-                boolean palindrome = true;
+               
                 while(q.size()>0){
                     if(q.poll() != st.pop()){
                         palindrome = false;
@@ -51,10 +51,10 @@ public class PalindromeCheckerApp {
                 while(dq.size() > 1){
                     char first = dq.removeFirst();
                     char second = dq.removeLast();
-                    if(first != second) palindrome = false;
-                    break;
+                    if(first != second)
+                      palindrome = false;
+                       break;
                 }
-                System.out.println("Is Palindrom? :" +palindrome);
 
                 System.out.println("Is Palindrome? :" + palindrome);
             }
