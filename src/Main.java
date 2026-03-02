@@ -1,6 +1,8 @@
 import java.util.Scanner;
 import java.util.Stack;
 import java.util.*;
+import java.util.Scanner;
+import java.util.Stack;
 
 // Class responsible only for palindrome logic (Single Responsibility Principle)
 class PalindromeChecker {
@@ -23,6 +25,7 @@ class PalindromeChecker {
                     for (char c : input.toCharArray()) {
                         stack.push(c);
                     }
+                }
 
                     // Compare with reversed order from stack
                     for (char c : cleaned.toCharArray()) {
