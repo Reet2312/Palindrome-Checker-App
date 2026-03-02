@@ -99,9 +99,7 @@ public class PalindromeCheckerApp {
         }
     }
     Node head = createList(input);
-        System.out.println("Is Palindrom? :"+isPalindrome(head));
-    Node head = createList(input);
-            System.out.println("Is Palindrom? :"+isPalindrome(head));
+        System.out.println("Is Palindrom? :"+isPalindrome(head))
 
         sc.close();
 }
